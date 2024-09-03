@@ -58,5 +58,5 @@ Hidden Markov Model with Viterbi Algorithm takes into account the relationship b
 The overall accuracy of this method was 95.05% for individual words and 54.45% for entire phrases.
 
 
-![image](https://media.github.iu.edu/user/24633/files/3ebb3b75-003e-4c7c-b11f-3f8ee593ed13)
+![image](https://github.com/user-attachments/assets/5e78c4c8-2f4b-46de-a635-485f484ff909)
 
