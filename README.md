@@ -3,8 +3,10 @@
 A basic problem in Natural Language Processing is part-of-speech tagging, in which the goal is to mark every word in a sentence with its part of speech (noun, verb, adjective, etc.). This is valuable for improving the performance of NLP systems for tasks such as machine translation.
 Sometimes this is easy: a sentence like "Blueberries are blue" clearly consists of a noun, verb, and adjective, since each of these words has only one possible part of speech (e.g., "blueberries" is a noun and can’t be a verb).
 But in general, one has to look at all the words in a sentence to figure out the part of speech of any individual word. For example, consider the —- grammatically correct! —- sentence: “Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo.” To figure out what it means, we can parse its parts of speech:
+
                        Buffalo      buffalo      Buffalo      buffalo     buffalo     buffalo    Buffalo    buffalo.
                        Adjective      Noun      Adjective      Noun        Verb        Verb      Adjective    Noun
+
 (In other words: the buffalo living in Buffalo, NY that are buffaloed (intimidated) by buffalo living in
 Buffalo, NY buffalo (intimidate) buffalo living in Buffalo, NY.) That’s an extreme example, obviously. Here’s a more mundane sentence:
 
