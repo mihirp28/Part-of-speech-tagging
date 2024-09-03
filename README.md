@@ -1,4 +1,8 @@
 # Part-of-speech-tagging
+## Problem
+
+
+## Solution
 1. **`posterior(self, model, sentence, label)`**:
    - Calculates posterior probability of a given model, sentence, and label.
    - For the "Simple" model, it calculates sum of logarithms of emission and initial probabilities.
