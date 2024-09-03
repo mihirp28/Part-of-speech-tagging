@@ -31,7 +31,7 @@ Goal in this part is to implement part-of-speech tagging in Python, using Bayes 
 
 2. Now consider Figure 2, a richer Bayes net that incorporates dependencies between words. Implement Viterbi to find the maximum a posteriori (MAP) labeling for the sentence,
    
-  (s<sup>*</sup><sub>i</sub>......s<sup>*</sup><sub>n</sub>) = arg max<sub>s<sub>i</sub></sub>,.......<sub>s<sub>n</sub></sub> P(S<sub>i</sub> = s<sub>i</sub> | W)
+  (s*<sub>i</sub>......s*<sub>n</sub>) = arg max<sub>s<sub>i</sub></sub>,.......<sub>s<sub>n</sub></sub> P(S<sub>i</sub> = s<sub>i</sub> | W)
 
 
 ## Solution
