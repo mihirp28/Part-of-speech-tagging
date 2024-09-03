@@ -21,7 +21,7 @@ Each line consists of a sentence, and each word is followed by one of 12 part-of
 
 ## Goal
 Goal in this part is to implement part-of-speech tagging in Python, using Bayes networks.
-1. To get started, consider the simplified Bayes net in Figure 1. To perform part-of-speech tagging, we’ll want to estimate the most-probable tag s^∗~i
+1. To get started, consider the simplified Bayes net in Figure 1. To perform part-of-speech tagging, we’ll want to estimate the most-probable tag s^∗^~i~
 for each word Wi
 ,
 
