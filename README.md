@@ -66,7 +66,7 @@ simple tag set is due to Petrov, Das and McDonald, and is discussed in detail in
 
 ![image](https://github.com/user-attachments/assets/52f75f96-d982-4129-93ba-038b3484e879)
 
-             Figure 3: Our goal is to extract text from a noisy scanned image of a document.
+Figure 3: Our goal is to extract text from a noisy scanned image of a document.
 
 
 ## Solution
