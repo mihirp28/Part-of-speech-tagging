@@ -24,8 +24,13 @@ Each line consists of a sentence, and each word is followed by one of 12 part-of
 ## Goal
 Goal in this part is to implement part-of-speech tagging in Python, using Bayes networks.
 1. To get started, consider the simplified Bayes net in Figure 1. To perform part-of-speech tagging, we’ll want to estimate the most-probable tag s<sup>∗</sup><sub>i</sub> for each word W<sub>i</sub>,
-s<sub>i</sub><sup>*</sup> = arg max<sub>s<sub>i</sub></sub> P(S<sub>i</sub> = s<sub>i</sub> | W)
+   
+  s<sub>i</sub><sup>*</sup> = arg max<sub>s<sub>i</sub></sub> P(S<sub>i</sub> = s<sub>i</sub> | W)
 
+  Implement part-of-speech tagging using this simple model.
+
+2. Now consider Figure 2, a richer Bayes net that incorporates dependencies between words. Implement Viterbi to find the maximum a posteriori (MAP) labeling for the sentence,
+  s<sub>i</sub><sup>*</sup> = arg max<sub>s<sub>i</sub></sub> P(S<sub>i</sub> = s<sub>i</sub> | W)
 
 
 ## Solution
