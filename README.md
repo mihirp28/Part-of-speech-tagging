@@ -64,7 +64,7 @@ the assignment; if you’re curious, check out the "Part of Speech" Wikipedia ar
 whether nouns are singular or plural, etc. In this assignment we’ve simplified the set of tags to the 12 described here; the
 simple tag set is due to Petrov, Das and McDonald, and is discussed in detail in their 2012 LREC paper if you’re interested.
 
-![image](https://github.com/user-attachments/assets/2b8a211d-0aff-4808-a90f-d8ef851cf373)
+            ![image](https://github.com/user-attachments/assets/2b8a211d-0aff-4808-a90f-d8ef851cf373)
 
    Figure 3: Our goal is to extract text from a noisy scanned image of a document.
 
