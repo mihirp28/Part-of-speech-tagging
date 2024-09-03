@@ -40,17 +40,17 @@ python3 ./label.py training_file testing_file
 Learning model...
 Loading test data...
 Testing classifiers...
-                      Simple   HMM     Magnus   ab     integro      seclorum   nascitur   ordo .
-0. Ground truth       -48.52   -64.33   noun   verb     adv           conj       noun     noun .
-1. Simplified         -47.29   -66.74   noun   noun     noun           adv       verb     noun .
-2. HMM                 -47.48   -63.83   noun   verb     adj           conj      noun     verb .
+                                                      Simple   HMM     Magnus   ab     integro      seclorum   nascitur   ordo .
+                                0. Ground truth       -48.52   -64.33   noun   verb     adv           conj       noun     noun .
+                                1. Simplified         -47.29   -66.74   noun   noun     noun           adv       verb     noun .
+                                2. HMM                 -47.48   -63.83   noun   verb     adj           conj      noun     verb .
 
 ==> So far scored 1 sentences with 17 words.
-
-                        Words correct:   Sentences correct:
-0. Ground truth             100.00%         100.00 %
-1. Simplified                 2.85 %         0.00 %
-2. HMM                        71.43 %         0.00 %
+                                  
+                                                          Words correct:   Sentences correct:
+                                  0. Ground truth             100.00%         100.00 %
+                                  1. Simplified                 2.85 %         0.00 %
+                                  2. HMM                        71.43 %         0.00 %
 
 We’ve already implemented some skeleton code to get you started, in three files: label.py, which is the main program, pos_scorer.py, which has the scoring code, and pos_solver.py, which will contain the actual part-of-speech estimation code. You should only modify the latter of these files. The current version of pos_solver.py we’ve supplied is very simple, as you’ll see. In your report, please make sure to include your results (accuracies) for each technique on the test file we’ve supplied, bc.test. Your code should finish
 within about 10 minutes.
